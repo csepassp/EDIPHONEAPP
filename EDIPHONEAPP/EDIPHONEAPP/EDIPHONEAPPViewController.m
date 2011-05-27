@@ -9,9 +9,15 @@
 #import "EDIPHONEAPPViewController.h"
 
 @implementation EDIPHONEAPPViewController
+@synthesize nameTextField;
+@synthesize greetLabel;
 
 - (void)dealloc
 {
+    [nameTextField release];
+    [nameTextField release];
+    [greetLabel release];
+    [greetLabel release];
     [super dealloc];
 }
 
@@ -35,6 +41,12 @@
 
 - (void)viewDidUnload
 {
+    [nameTextField release];
+    nameTextField = nil;
+    [self setNameTextField:nil];
+    [greetLabel release];
+    greetLabel = nil;
+    [self setGreetLabel:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -46,4 +58,7 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
+- (IBAction)greetFunction:(id)sender {
+    greetLabel.text = @"Hello";
+}
 @end

@@ -10,6 +10,11 @@
 
 @interface EDIPHONEAPPViewController : UIViewController {
     
+    IBOutlet UITextField *nameTextField;
+    IBOutlet UILabel *greetLabel;
 }
+@property (nonatomic, retain) IBOutlet UITextField *nameTextField;
 
+@property (nonatomic, retain) IBOutlet UILabel *greetLabel;
+- (IBAction)greetFunction:(id)sender;
 @end
