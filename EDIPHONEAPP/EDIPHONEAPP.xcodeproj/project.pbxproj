@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FF5A074138F81E50071C37E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FF5A073138F81E50071C37E /* UIKit.framework */; };
+		0FF5A076138F81E50071C37E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FF5A075138F81E50071C37E /* Foundation.framework */; };
+		0FF5A078138F81E50071C37E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FF5A077138F81E50071C37E /* CoreGraphics.framework */; };
+		0FF5A07E138F81E50071C37E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0FF5A07C138F81E50071C37E /* InfoPlist.strings */; };
+		0FF5A081138F81E50071C37E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF5A080138F81E50071C37E /* main.m */; };
+		0FF5A084138F81E50071C37E /* EDIPHONEAPPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF5A083138F81E50071C37E /* EDIPHONEAPPAppDelegate.m */; };
+		0FF5A087138F81E50071C37E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FF5A085138F81E50071C37E /* MainWindow.xib */; };
+		0FF5A08A138F81E50071C37E /* EDIPHONEAPPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF5A089138F81E50071C37E /* EDIPHONEAPPViewController.m */; };
+		0FF5A08D138F81E50071C37E /* EDIPHONEAPPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FF5A08B138F81E50071C37E /* EDIPHONEAPPViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0FF5A06F138F81E50071C37E /* EDIPHONEAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EDIPHONEAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FF5A073138F81E50071C37E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0FF5A075138F81E50071C37E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0FF5A077138F81E50071C37E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0FF5A07B138F81E50071C37E /* EDIPHONEAPP-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EDIPHONEAPP-Info.plist"; sourceTree = "<group>"; };
+		0FF5A07D138F81E50071C37E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0FF5A07F138F81E50071C37E /* EDIPHONEAPP-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EDIPHONEAPP-Prefix.pch"; sourceTree = "<group>"; };
+		0FF5A080138F81E50071C37E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0FF5A082138F81E50071C37E /* EDIPHONEAPPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EDIPHONEAPPAppDelegate.h; sourceTree = "<group>"; };
+		0FF5A083138F81E50071C37E /* EDIPHONEAPPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EDIPHONEAPPAppDelegate.m; sourceTree = "<group>"; };
+		0FF5A086138F81E50071C37E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		0FF5A088138F81E50071C37E /* EDIPHONEAPPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EDIPHONEAPPViewController.h; sourceTree = "<group>"; };
+		0FF5A089138F81E50071C37E /* EDIPHONEAPPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EDIPHONEAPPViewController.m; sourceTree = "<group>"; };
+		0FF5A08C138F81E50071C37E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/EDIPHONEAPPViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0FF5A06C138F81E50071C37E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FF5A074138F81E50071C37E /* UIKit.framework in Frameworks */,
+				0FF5A076138F81E50071C37E /* Foundation.framework in Frameworks */,
+				0FF5A078138F81E50071C37E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FF5A064138F81E40071C37E = {
+			isa = PBXGroup;
+			children = (
+				0FF5A079138F81E50071C37E /* EDIPHONEAPP */,
+				0FF5A072138F81E50071C37E /* Frameworks */,
+				0FF5A070138F81E50071C37E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0FF5A070138F81E50071C37E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0FF5A06F138F81E50071C37E /* EDIPHONEAPP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0FF5A072138F81E50071C37E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0FF5A073138F81E50071C37E /* UIKit.framework */,
+				0FF5A075138F81E50071C37E /* Foundation.framework */,
+				0FF5A077138F81E50071C37E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0FF5A079138F81E50071C37E /* EDIPHONEAPP */ = {
+			isa = PBXGroup;
+			children = (
+				0FF5A082138F81E50071C37E /* EDIPHONEAPPAppDelegate.h */,
+				0FF5A083138F81E50071C37E /* EDIPHONEAPPAppDelegate.m */,
+				0FF5A085138F81E50071C37E /* MainWindow.xib */,
+				0FF5A088138F81E50071C37E /* EDIPHONEAPPViewController.h */,
+				0FF5A089138F81E50071C37E /* EDIPHONEAPPViewController.m */,
+				0FF5A08B138F81E50071C37E /* EDIPHONEAPPViewController.xib */,
+				0FF5A07A138F81E50071C37E /* Supporting Files */,
+			);
+			path = EDIPHONEAPP;
+			sourceTree = "<group>";
+		};
+		0FF5A07A138F81E50071C37E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0FF5A07B138F81E50071C37E /* EDIPHONEAPP-Info.plist */,
+				0FF5A07C138F81E50071C37E /* InfoPlist.strings */,
+				0FF5A07F138F81E50071C37E /* EDIPHONEAPP-Prefix.pch */,
+				0FF5A080138F81E50071C37E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0FF5A06E138F81E50071C37E /* EDIPHONEAPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FF5A090138F81E50071C37E /* Build configuration list for PBXNativeTarget "EDIPHONEAPP" */;
+			buildPhases = (
+				0FF5A06B138F81E50071C37E /* Sources */,
+				0FF5A06C138F81E50071C37E /* Frameworks */,
+				0FF5A06D138F81E50071C37E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EDIPHONEAPP;
+			productName = EDIPHONEAPP;
+			productReference = 0FF5A06F138F81E50071C37E /* EDIPHONEAPP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0FF5A066138F81E40071C37E /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 0FF5A069138F81E40071C37E /* Build configuration list for PBXProject "EDIPHONEAPP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0FF5A064138F81E40071C37E;
+			productRefGroup = 0FF5A070138F81E50071C37E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0FF5A06E138F81E50071C37E /* EDIPHONEAPP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0FF5A06D138F81E50071C37E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FF5A07E138F81E50071C37E /* InfoPlist.strings in Resources */,
+				0FF5A087138F81E50071C37E /* MainWindow.xib in Resources */,
+				0FF5A08D138F81E50071C37E /* EDIPHONEAPPViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0FF5A06B138F81E50071C37E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FF5A081138F81E50071C37E /* main.m in Sources */,
+				0FF5A084138F81E50071C37E /* EDIPHONEAPPAppDelegate.m in Sources */,
+				0FF5A08A138F81E50071C37E /* EDIPHONEAPPViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0FF5A07C138F81E50071C37E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0FF5A07D138F81E50071C37E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0FF5A085138F81E50071C37E /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0FF5A086138F81E50071C37E /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		0FF5A08B138F81E50071C37E /* EDIPHONEAPPViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0FF5A08C138F81E50071C37E /* en */,
+			);
+			name = EDIPHONEAPPViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0FF5A08E138F81E50071C37E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0FF5A08F138F81E50071C37E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		0FF5A091138F81E50071C37E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EDIPHONEAPP/EDIPHONEAPP-Prefix.pch";
+				INFOPLIST_FILE = "EDIPHONEAPP/EDIPHONEAPP-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0FF5A092138F81E50071C37E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EDIPHONEAPP/EDIPHONEAPP-Prefix.pch";
+				INFOPLIST_FILE = "EDIPHONEAPP/EDIPHONEAPP-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0FF5A069138F81E40071C37E /* Build configuration list for PBXProject "EDIPHONEAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FF5A08E138F81E50071C37E /* Debug */,
+				0FF5A08F138F81E50071C37E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FF5A090138F81E50071C37E /* Build configuration list for PBXNativeTarget "EDIPHONEAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FF5A091138F81E50071C37E /* Debug */,
+				0FF5A092138F81E50071C37E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0FF5A066138F81E40071C37E /* Project object */;
+}
