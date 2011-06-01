@@ -59,6 +59,6 @@
 }
 
 - (IBAction)greetFunction:(id)sender {
-    greetLabel.text = @"Hello";
+    greetLabel.text = @"Hi";
 }
 @end
