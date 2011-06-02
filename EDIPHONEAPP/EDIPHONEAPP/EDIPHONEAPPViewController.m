@@ -59,6 +59,6 @@
 }
 
 - (IBAction)greetFunction:(id)sender {
-    greetLabel.text = @"Bye Bye";
+    greetLabel.text = @"Good Bye";
 }
 @end
